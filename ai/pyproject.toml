@@ -1,0 +1,16 @@
+[project]
+name = "stream-q"
+version = "0.1.0"
+description = "A lightweight Twitch chat bot that detects viewer questions and automatically replies using semantic search"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "twitchio>=2.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.21.0",
+    "ruff>=0.1.0",
+]
