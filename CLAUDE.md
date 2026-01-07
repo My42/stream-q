@@ -6,6 +6,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 StreamQ is a lightweight Twitch chat bot that detects viewer questions and automatically replies using the streamer's own FAQ knowledge base. It uses semantic search (embeddings) and a confidence threshold to avoid wrong answers. The bot runs locally on the streamer's PC with simple FAQ management, anti-spam/cooldowns, and logging for easy iteration.
 
+## Project Status & Roadmap
+
+**Current Status:** MVP of FAQ semantic search is complete. The bot can match questions using embeddings but is not yet connected to Twitch chat.
+
+**Next Milestone:** Twitch integration - Connect bot to Twitch IRC and implement message listening/response functionality.
+
+**Important:** Always read `TODO.md` at the start of each session for the complete task list, current progress, and planned features.
+
 ## Development Commands
 
 All Python dependencies are managed with `uv`. The main codebase is in the `ai/` directory.
